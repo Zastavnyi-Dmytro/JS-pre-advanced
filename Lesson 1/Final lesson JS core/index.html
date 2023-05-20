@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 17</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="control">
+            <div class="time">01:00</div>
+            <div class="buttons">
+                <input type="button" class="button" value="Start game" id="startBtn">
+                <input type="button" class="button" value="Check result" disabled id="checkBtn">
+                <input type="button" class="button" value="New game" id="newBtn">
+            </div>
+        </div>
+        <div class="game">
+            <div id="start" class="box">
+                <div class="img-parts" id="part1"></div>
+                <div class="img-parts" id="part2"></div>
+                <div class="img-parts" id="part3"></div>
+                <div class="img-parts" id="part4"></div>
+                <div class="img-parts" id="part5"></div>
+                <div class="img-parts" id="part6"></div>
+                <div class="img-parts" id="part7"></div>
+                <div class="img-parts" id="part8"></div>
+                <div class="img-parts" id="part9"></div>
+                <div class="img-parts" id="part10"></div>
+                <div class="img-parts" id="part11"></div>
+                <div class="img-parts" id="part12"></div>
+                <div class="img-parts" id="part13"></div>
+                <div class="img-parts" id="part14"></div>
+                <div class="img-parts" id="part15"></div>
+                <div class="img-parts" id="part16"></div>
+            </div>
+            <div id="end" class="box">
+                <div id="gameArea">
+                    <div class="dropArea">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <div class="dropItem" id="dropPart1"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart2"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart3"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart4"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="dropItem" id="dropPart5"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart6"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart7"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart8"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="dropItem" id="dropPart9"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart10"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart11"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart12"></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="dropItem" id="dropPart13"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart14"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart15"></div>
+                                </td>
+                                <td>
+                                    <div class="dropItem" id="dropPart16"></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-area">
+            <div class="modal-window">
+                <div class="modal-check modal">
+                    <div class="modal-text">
+                        <h2>You still have time, are you sure?</h2>
+                        <span class="modal-time time">01:00</span>
+                    </div>
+                    <input type="button" class="closeButton btn" value="Close" id="modalClose">
+                    <input type="button" class="checkButton btn" value="Check" id="modalCheck">
+                </div>
+                <div class="modal-win modal">
+                    <div class="modal-text">
+                        <h2>Woohoo, well done, you did it!</h2>
+                    </div>
+                    <input type="button" class="closeButton btn" value="Close" id="winClose">
+                </div>
+                <div class="modal-loose modal">
+                    <div class="modal-text">
+                        <h2>It's a pity but you lost</h2>
+                    </div>
+                    <input type="button" class="closeButton btn" value="Close" id="looseClose">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

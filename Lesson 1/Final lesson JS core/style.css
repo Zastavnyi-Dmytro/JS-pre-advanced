@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time{
+    font-size: 60px;
+    text-align: center;
+}
+
+.buttons{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.img-parts{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.dropItem{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.puz1{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: 30px 0px;
+}
+.puz2{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -70px 0px;
+}
+.puz3{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -170px 0px;
+}
+.puz4{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -270px 0px;
+}
+.puz5{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: 30px -100px;
+}
+.puz6{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -70px -100px;
+}
+.puz7{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -170px -100px;
+}
+.puz8{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -270px -100px;
+}
+.puz9{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: 30px -200px;
+}
+.puz10{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -70px -200px;
+}
+.puz11{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -170px -200px;
+}
+.puz12{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -270px -200px;
+}
+.puz13{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: 30px -300px;
+}
+.puz14{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -70px -300px;
+}
+.puz15{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -170px -300px;
+}
+.puz16{
+    background-image: url(img/stitch.png);
+    background-repeat: no-repeat;
+    background-position: -270px -300px;
+}
+
+
+
+.modal-window{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0a0a0a56;
+    z-index: -1;
+    text-align: center;
+}
+
+.modal{
+    display: none;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    z-index: 2;
+    border: 1px solid black;
+}
+
+.modal-text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.closeButton{
+    background-color: rgb(180, 17, 17);
+}
+
+.checkButton{
+    background-color: green;
+}
+
+#startBtn:disabled {
+    background-color: rgb(180, 121, 121);
+}
+#checkBtn:disabled {
+    background-color: rgb(180, 121, 121);
+}
+
+
+
+
+
