@@ -1,6 +1,10 @@
-function CoffeMake(on,off){
-    this.on = on;
-    this.off = off
+function CoffeMake(){
+    function on(){
+        console.log('turned on')
+    }
+    function off(){
+        console.log('turned off')
+    }
 }
 
 CoffeMake.prototype.drip = function(){
