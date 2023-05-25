@@ -1,20 +1,20 @@
 function CoffeMake(){
     function on(){
-        console.log('turned on')
+        return 'turned on'
     }
     function off(){
-        console.log('turned off')
+        return 'turned off'
     }
 }
 
 CoffeMake.prototype.drip = function(){
-    console.log('dripping')
+    return 'dripping'
 }
 
 CoffeMake.prototype.carob = function(){
-    console.log('carob')
+    return 'carob'
 }
 
 CoffeMake.prototype.coffeMachine = function(){
-    console.log("coffe machine is working")
+    return "coffe machine is working"
 }
