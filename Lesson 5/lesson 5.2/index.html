@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="storage-box box">
+            <p>Баланс</p>
+            <textarea disabled id="balance"></textarea>
+            <p>Пиво</p>
+            <textarea disabled id="beer"></textarea>
+            <p>Вино</p>
+            <textarea disabled id="vine"></textarea>
+            <p>Пепсі</p>
+            <textarea disabled id="pepsi"></textarea>
+        </div>
+        <div class="shop-box box">
+            <p>Кількість</p>
+            <input type="text" id="count">
+            <div class="radio-box">
+                <input type="radio" class="radio" id="beerRadio" name="buy-item" checked>Пиво
+                <input type="radio" class="radio" id="vineRadio" name="buy-item">Вино
+                <input type="radio" class="radio" id="pepsiRadio" name="buy-item">Пепсі
+            </div>
+            <input type="button" value="Додати" id="add">
+            <div class="cartBlock" id="cart"></div>
+            <input type="button" value="Купити" id="buy">
+        </div>
+        <div class="buy-box box">
+            <div class="buy-box-text" id="buyBox"></div>
+        </div>
+    </div>
+    <div class="modal">
+        <div id="modalMes"></div>
+        <button type="button" id="modalBtn">Close</button>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="shop.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
