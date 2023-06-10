@@ -1,0 +1,89 @@
+.signup-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box, .signin-box input{
+    width: 200px;
+}
+
+.signup-box, .signin-box button{
+    width: 208px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.signin-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-box{
+    display: none;
+}
+
+.signUp-error, .signIn-error, .empty, .input-error{
+    display: none;
+}
+
+.signUp-error{
+    position: absolute;
+    left: 230px;
+    top: 116px;
+    background-color: rgb(175, 20, 20);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.signIn-error{
+    position: absolute;
+    left: 8px;
+    top: 143px;
+    background-color: rgb(175, 20, 20);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.empty{
+    position: absolute;
+    left: 8px;
+    top: 143px;
+    background-color: rgb(175, 20, 20);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.input-error{
+    position: absolute;
+    left: 8px;
+    top: 230px;
+    background-color: rgb(175, 20, 20);
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#blueSignUp{
+    margin-top: 30px;
+}
+
+.btn{
+    background-color: rgb(36, 126, 36);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.blue{
+    color: blue;
+    cursor: pointer;
+    width: 100px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signup-box">
+            <h2>Please sign up</h2>
+            <input type="text" placeholder="First name" id="firstName">
+            <input type="text" placeholder="Last name" id="lastName">
+            <input type="text" placeholder="Email address" id="email">
+            <input type="password" placeholder="Password" id="password">
+            <button type="button" class="btn" id="signUp">Sign Up</button>
+            <p id="blueSignIn" class="blue">Sign in now</p>
+        </div>
+        <div class="signin-box">
+            <h2>Plese sign in</h2>
+            <input type="text" placeholder="Email address" id="logEmail">
+            <input type="password" placeholder="Password" id="logPassword">
+            <button type="button" class="btn" id="signIn">Sign In</button>
+            <p id="blueSignUp" class="blue">Sign up now</p>
+        </div>
+        <div class="user-box">
+            <div class="img">
+                <img src="img/user-picture.png" alt="">
+            </div>
+            <div class="name" id="userName"></div>
+            <div class="email" id="userEmail"></div>
+            <div class="position">Web developer</div>
+            <button type="button" class="btn" id="userSignOut">Sign Out</button>
+        </div>
+        <div class="signUp-error">This email already exist</div>
+        <div class="signIn-error">Incorrect email or password</div>
+        <div class="empty">localstorage is empty</div>
+        <div class="input-error">Enter the data</div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
