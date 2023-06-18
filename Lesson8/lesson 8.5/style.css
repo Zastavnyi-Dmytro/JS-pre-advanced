@@ -1,0 +1,16 @@
+textarea{
+    margin-top: 10px;
+    resize: none;
+    width: 270px;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#cenzorBtn{
+    width: 276px;
+    margin-top: 10px;
+}
