@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-block">
+            <p>Login</p>
+            <input type="text" id="login" placeholder="Enter login">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="Enter password">
+            <p>Email address</p>
+            <input type="email" id="email" placeholder="Enter email">
+            <button type="button" id="addBtn">Add user</button>
+            <button type="button" id="editBtn" class="hide">Edit user</button>
+            <p id="error" class="hide">Data entered incorrectly. Try again</p>
+        </div>
+        <div class="table-block">
+            <table>
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Login</td>
+                        <td>Password</td>
+                        <td>Email</td>
+                        <td>Edit</td>
+                        <td>Delete</td>
+                    </tr>
+                </thead>
+                <tbody id="info">
+
+                </tbody>    
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

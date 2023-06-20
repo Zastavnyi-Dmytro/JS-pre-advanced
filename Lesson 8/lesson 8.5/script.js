@@ -36,3 +36,4 @@ cenzorBtn.addEventListener('click', function () {
     inputCenzor.value = censoredText;
 });
 updateBadWords();
+

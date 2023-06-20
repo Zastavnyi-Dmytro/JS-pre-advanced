@@ -1,3 +1,6 @@
+export {}
+
+
 let inputWords = document.getElementById('inputWords') as HTMLInputElement;
 let inputCenzor = document.getElementById('inputCenzor') as HTMLInputElement;
 let addBtn = document.getElementById('addBtn') as HTMLButtonElement
